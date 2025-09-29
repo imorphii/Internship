@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0077cc;
+    padding: 30px;
+    border-bottom: 5px solid #005fa3;
+    margin: auto;
+}
+
+#h1 {
+    color: white;
+
+}
+
+#header_logo {
+    width: 40px;
+}
+
+.products {
+    width: 400px;
+    border: 2px solid rgb(214, 208, 208);
+    margin: 30px auto;
+    background-color: white;
+}
+
+img.img_product {
+    border: 3px solid #005fa3;
+    width: 150px
+}
+
+
+.paragragh_product {
+    padding: 0 50px;
+}
