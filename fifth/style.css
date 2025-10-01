@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    background-color: yellow;
+    width: 100%;
+    background-image: url(images/background_image.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    border: 10px dashed red;
+    box-sizing: border-box;
+    background-origin: border-box;
+    padding: 20px;
+    background-clip: content-box;
+    background-attachment: fixed;
+    
+}
+
+.color{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    background: linear-gradient(245deg,red,blue);
+}
+.color1 {
+    width: 300px;
+    height: 250px;
+    border: 2px solid red;
+    background: linear-gradient(267deg,rgba(15, 108, 35, 0.865), rgba(196, 44, 44,0.1)) ,url(images/background_image.jpg);
+    background-origin: border-box;
+    background-size: cover;
+
+}
