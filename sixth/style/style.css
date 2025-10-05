@@ -1,0 +1,132 @@
+
+/* start header styling */
+
+/* start part 1 of heading */
+#header_part1{
+    color: #fff;
+    display: flex;
+    background-color: #010044;
+    border-bottom: 7px solid;
+    border-image: linear-gradient(90deg, red, orange, yellow, green, blue) 1;
+    padding-top: 30px;
+}
+/* End part 1 of heading */
+
+
+/* start part 2 of heading */
+#header_part2{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header_part2 .search_bar{
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    background-color: #f0f0f0;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.search_bar .input_header{
+    margin-right: 20px;
+    color: #333;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.search_bar .search_icon{
+    color: #333;
+    margin-right: 20px;
+}
+
+#header_part2 #btn_header{
+    
+    text-decoration: none;
+    border: 1px solid rgb(183, 178, 178);
+    border-radius: 5px;
+    padding: 15px ;
+    
+}
+/* End part 2 of heading */
+
+
+/* start part 3 of heading */
+#header_part3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_part3 div ul{
+    display: flex;
+    gap: 10px;
+}
+#header_part3 div ul li {
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+#header_part3 div ul li:hover{
+    text-decoration: underline red;
+    
+}
+#header_part3 div ul li a{
+    text-decoration: none;
+    color: grey;
+}
+#header_part3 .location_btn {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    margin-left: 5px;
+    background-color: #fff6ed;
+    color: #dc7119;
+    border-radius: 20px;
+    padding: 7px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.location_btn a{
+    color: #dc7119;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+/* end part 3 of heading */
+
+
+/* end header styling */
+
+main header .story_place ul{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+
+main .story img{
+    width: 70px;
+    height: 70px;
+    border: 3px solid ;
+    border-color: linear-gradient(nulldeg,rgba(63, 94, 251, 1) 15%, rgba(170, 70, 252, 1) 89%);
+    border-radius: 50%;
+    background-clip: padding-box;
+    padding: 3px;
+    margin: 15px;
+}
+
+
+main #main_slider img {
+    width: 100%;
+    margin-top: 30px;
+}
