@@ -1,0 +1,123 @@
+html{
+    font-size: 100%;
+}
+body{
+    margin: 1.5rem;
+}
+
+/* start header section */
+.header{
+    background-color: #2980b9;
+    display: flex;
+    justify-content: space-between;
+    border-radius:0.5rem;
+    padding: 2rem;
+    align-items: center;
+    color: white;
+}
+
+.header .brand-logo{
+    font-weight: bold;
+    font-size: 50px;
+}
+.header .menu a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+/* End header section */
+
+
+/* ------------------------- */
+
+
+/* start main section */
+.main{
+    border-radius: 0.5rem;
+    gap: 1rem;
+    margin-top: 1rem ;
+    display: flex;
+}
+
+.main .side{
+    background-color: #2980b9;
+    border-radius: 0.5rem;
+    flex-basis: 30%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 5rem;
+}
+
+.main .content{
+    background-color: #2980b9;
+    color: white;
+    flex-basis: 70%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.main .content div{
+    background-color: rgb(151, 96, 203);
+    display: flex;
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+/* End main section */
+
+/* ------------------------- */
+
+/* Start main second section */
+.main-second{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    gap:1rem;
+}
+
+.main-second .intro-box{
+    background-color: #2980b9;
+    color: white;
+    border-radius: .5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-second .about-section{
+    background-color: #2980b9;
+    color: white;
+    border-radius: .5rem;
+    padding: 2rem;
+    display: flex;
+
+}
+/* End main second section */
+
+
+/* ------------------------- */
+
+
+/* start footer section */
+.footer{
+    background-color: #2980b9;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+/* End footer section */
+
