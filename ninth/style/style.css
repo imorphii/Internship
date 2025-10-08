@@ -1,0 +1,291 @@
+/* start header styling */
+@font-face {
+    font-family: "iran";
+    src: url(../font/IRANSansX-Regular.woff2) format("woff2");
+}
+
+
+html {
+    font-size: 100%;
+    font-family: "iran";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "iran";
+}
+
+h1 {
+    font-size: 16px
+}
+
+
+
+/* start part 1 of heading */
+/* #header_part1 {
+    color: #fff;
+    display: flex;
+    background-color: #010044;
+    border-bottom: 7px solid;
+    border-image: linear-gradient(90deg, red, orange, yellow, green, blue) 1;
+    padding-top: 30px;
+} */
+
+/* End part 1 of heading */
+
+
+/* start part 2 of heading */
+#header_part2 {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    font-size: 13px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header_part2 .digikala-logo img {
+    width: 15rem;
+
+}
+
+#header_part2 .search_bar {
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-left: 17rem;
+    width: 34rem;
+    padding: .5rem;
+}
+
+#header_part2 .search_bar img {
+    width: 24px;
+    height: 24px;
+}
+
+#header_part2 .search_bar .input_header {
+    margin-right: 20px;
+    color: #8d8d8d;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+
+#header_part2 img {
+    margin-left: 2rem;
+    background-size: 24px;
+    height: 24px;
+}
+
+#header_part2 .btn_header {
+    margin-left: 5rem;
+    border: 1px solid rgb(183, 178, 178);
+    border-radius: 5px;
+    padding: .1rem 1rem;
+}
+
+/* End part 2 of heading */
+
+
+/* start part 3 of heading */
+#header_part3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_part3 div ul {
+    display: flex;
+    gap: 10px;
+}
+
+#header_part3 div ul li {
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+#header_part3 div ul li:hover {
+    text-decoration: underline red;
+
+}
+
+#header_part3 div ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+#header_part3 .location_btn {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    margin-left: 5px;
+    background-color: #fff6ed;
+    color: #dc7119;
+    border-radius: 20px;
+    padding: 7px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.location_btn a {
+    color: #dc7119;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+/* end part 3 of heading */
+
+
+/* end header styling */
+
+/* start main section */
+main header .story_place {
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.story_place::-webkit-scrollbar {
+    display: none;
+}
+
+main header .story_place ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+
+main .story img {
+    width: 70px;
+    height: 70px;
+    border: 3px solid;
+    border-color: linear-gradient(nulldeg, rgba(63, 94, 251, 1) 15%, rgba(170, 70, 252, 1) 89%);
+    border-radius: 50%;
+    background-clip: padding-box;
+    padding: 3px;
+    margin: 15px;
+}
+
+
+main #main_slider img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+main #main_logo {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+main #main_logo img {
+    margin: 0 40px;
+    width: 52px;
+    height: 52px;
+
+}
+
+main #main_logo a {
+    text-decoration: none;
+}
+
+main #main_logo h3 {
+    margin-top: 10px;
+}
+
+main #main_logo div img {
+    background-color: rgba(211, 211, 211, 0.45);
+    border: 1px solid black;
+    width: 52px;
+    border-radius: 50%;
+
+}
+
+.Special-offers {
+    background-color: #d52d4e;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.Special-offers div {
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.Special-offers .side-bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.Special-offers .side-bar img {
+    width: 88px;
+    height: 88px;
+}
+
+
+
+.Special-offers .side-bar .clock {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.Special-offers .product-bar {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.Special-offers .product-bar .item {
+    background-color: white;
+    width: 20;
+    border-radius: .5rem;
+}   
+
+main .part-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;   
+}
+main .part-1 .item {
+    display: flex;
+    margin: auto;
+}
+
+main .part-1 .item img{
+    width: 18rem;
+    border-radius: 1rem;
+    gap: 2rem;
+}
+
+/* start main section */
