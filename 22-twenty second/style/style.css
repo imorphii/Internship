@@ -1,0 +1,89 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'IRANSansX', sans-serif;
+}
+
+
+/* start header section */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: .5rem .9rem 0 .9rem;
+}
+
+.menu .menuAndLogo {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.menu .mainMenu ul {
+    display: flex;
+    margin-right: 1.5rem;
+
+    color: #4b5259;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .mainMenu li {
+    padding: .6rem;
+    font-size: .875rem;
+}
+
+.menu .mainMenu li:not(:first-child) {
+    border-right: 1px solid #c9cdd1;
+}
+
+/* End header section */
+/* ------------------------------------- */
+/* start main section */
+main .search {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+main .search .main-pic {
+    margin-top: .7rem;
+
+}
+
+main .search .main-pic img {
+    max-width: 100%;
+}
+
+main .search .searchBar {
+    display: grid;
+    grid-template-rows: 5rem 5rem;
+    background-color: rgb(134, 50, 135);
+    padding: 1rem;
+    gap: 20px;
+    width: 80%;
+    border-radius: .5rem;
+}
+
+main .search .searchBar .item {
+    background-color: rgb(65, 96, 44);
+}
+
+main .search .searchBar .item ul{
+    display: flex;
+}
+
+svg{
+    color: black;
+}
+svg:hover{
+    color: blue;
+}
+/* End main section */
