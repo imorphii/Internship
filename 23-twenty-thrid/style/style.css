@@ -1,0 +1,225 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'IRANSansX', sans-serif;
+    margin: 0 1rem;
+}
+
+button {
+    all: unset;
+}
+
+/* start header section */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: .5rem .9rem 0 .9rem;
+}
+
+/* start menu  and logo section */
+
+.menu .menuAndLogo {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu .mainMenu i {
+    font-size: 1rem;
+}
+.menu .mainMenu ul {
+    display: flex;
+    margin-right: 1.5rem;
+
+    color: #4b5259;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .mainMenu li {
+    padding: .6rem;
+    font-size: .875rem;
+}
+
+.menu .mainMenu li:not(:first-child) {
+    border-right: 1px solid #c9cdd1;
+}
+
+.menu .mainMenu .dropdown1{
+    border: 1px solid red;
+    display: none;
+}
+/* End menu  and logo section */
+/* End header section */
+/* ------------------------------------- */
+/* start main section */
+main .search {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+
+/* start picture of search bar */
+
+main .search .main-pic {
+    margin-top: .7rem;
+
+}
+
+main .search .main-pic img {
+    max-width: 100%;
+}
+
+/* end picture of search bar */
+/* ---------------- */
+/* start search bar section */
+main .search .searchBar {
+    display: grid;
+    grid-template-rows: 5rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 1rem;
+    gap: 20px;
+    width: 80%;
+    border-radius: .5rem;
+}
+
+
+/* start search-item section */
+main .search .searchBar .select-item ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+main .search .searchBar .select-item ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+main .search .searchBar .select-item ul li:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+main .search .searchBar .search-item button {
+    border: 1px solid lightgray;
+    padding: .3rem;
+    font-size: .8rem;
+    border-radius: 1.5rem;
+}
+
+main .search .searchBar .search-item form {
+    display: flex;
+    margin-top: 1rem;
+}
+
+main .search .searchBar .search-item form .between {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: .3rem;
+}
+
+main .search .searchBar .search-item form .searchbtn {
+    border: 1px solid #fc8b12;
+    background-color: #fcb712;
+    padding: .5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .7rem;
+    border-radius: .4rem;
+}
+/* End search-item section */
+/* End search bar section */
+/* ---------------- */
+/* srart other Service section */
+.Other-services{
+    margin: 2rem 0;
+}
+
+.Other-services h2{
+    font-weight: bolder;
+    margin-right:5rem ;
+}
+.Other-services .services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid lightgray; */
+    margin: 1rem 5rem 0;
+}
+.Other-services .services .item{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 2rem;
+    border-right: 1px solid lightgray;
+
+}
+
+.Other-services .services .item img{
+    width: 3rem;
+}
+/* srart other Service section */
+/* End main section */
+/* ------------------------------------- */
+/* start footer section */
+.footer {
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+.footer .all-part-footer {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer .all-part-footer .container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer .all-part-footer .container > div {
+    flex: 1 1 0;
+  }
+  .footer .all-part-footer .container > .Symbol {
+    flex: 0 0 220px; /* یا 25% بسته به اندازه دلخواه */
+    display: flex;
+    flex-direction: row;
+    gap: .75rem;
+    align-items: flex-end; /* RTL: محتوا راست‌چین */
+  }
+
+  .footer .all-part-footer .container .Symbol{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .footer .all-part-footer .container .Symbol a {
+    display: inline-block;
+    margin-bottom: .4rem;
+  }
+  .footer .all-part-footer .container .Symbol .Symbol-logo{
+    width: 3rem;
+    height: auto;
+    display: inline-block;
+  }
+  .footer .all-part-footer .container .Symbol > img:first-child {
+    width: 100px; /* لوگوی اصلی بزرگ‌تر */
+  }
+/* End footer section */
