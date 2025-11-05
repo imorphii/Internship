@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The HTML reference describes all elements and attributes of HTML, including global attributes that apply to all elements." />
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/fontiran.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Alibaba</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="menu">
+        <!-- start menu  and logo section -->
+        <section class="menuAndLogo">
+            <a href="http://127.0.0.1:5500/index.html"><img src="images/alibaba-logo.svg" alt="alibaba logo"
+                    id="alibaba"></a>
+            <nav class="mainMenu">
+                <ul>
+                    <!-- start of mega menu  -->
+                    <li class="mega-mene">
+                        <a href="#"><i class="bi bi-filter-right"></i>دسته بندی بلیط ها</a>
+                        <div class="dropdown1">
+                            <ul>
+                                <li>بلیط سفر های خارجی</li>
+                                <li>بلیط سفر های داخلی</li>
+                                <li>بلیط قطار</li>
+                                <li>بلیط اتوبوس</li>
+                                <li>بلیط کشتی و لنج</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- start of mega menu  -->
+                    <li><a href="#">اقامت<i class="bi bi-chevron-compact-down"></i></a></li>
+                    <li><a href="#">تور</a></li>
+                    <li><a href="#">ویزا</a></li>
+                    <li><a href="#">پنل آژانسی</a></li>
+                    <li><a href="#">بیشتر<i class="bi bi-chevron-compact-down"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- End menu  and logo section -->
+        <!-- ------------------------------------- -->
+        <!-- start shortcut of header -->
+        <section class="shortcutOfHeader">
+            <span>
+                <i class="bi bi-question-circle"></i>
+                مرکز پشتیبانی آنلاین
+            </span>
+            <span>
+                <i class="bi bi-suitcase"></i>
+                سفر های من
+            </span>
+            <span><a href="" onclick="otherService()">
+                    <i class="bi bi-person"></i>
+                    ورود یا ثبت نام
+                </a>
+            </span>
+        </section>
+        <!-- End shortcut of header -->
+    </header>
+    <!-- End header section-->
+    <!-- ------------------------------------------- -->
+    <!-- start main section -->
+    <main>
+        <!-- start search section -->
+        <section class="search">
+            <!--  start picture of search bar -->
+            <div class="main-pic">
+                <img id='pic' class="main-pic-src" src="images/hero-e1fa22fb.webp">
+            </div>
+            <!-- end picture of search bar -->
+            <!-- ---------------- -->
+            <!-- start search bar section  -->
+            <div class="searchBar">
+                <div class="item select-item">
+                    <ul>
+                        <li id="frist">
+                            <i class="bi bi-airplane icons"></i>
+                            <span>پرواز داخلی</span>
+                        </li>
+                        <li id="second">
+                            <i class="bi bi-airplane-engines icons"></i>
+                            <span>پرواز خارجی</span>
+                        </li>
+                        <li id="third">
+                            <i class="bi bi-train-freight-front"></i>
+                            <span>قطار</span>
+
+                        </li>
+
+                        <li id="fourth">
+                            <i class="bi bi-bus-front"></i>
+                            <span>اتوبوس</span>
+
+                        </li>
+                        <li id="fifth">
+                            <i class="bi bi-backpack"></i>
+                            <span>تور</span>
+
+                        </li>
+                        <li id="sixth">
+                            <i class="bi bi-buildings"></i>
+                            <span>هتل</span>
+
+                        </li>
+                        <li id="seventh">
+                            <i class="bi bi-house"></i>
+                            <span>ویلا و اقامتگاه</span>
+
+                        </li>
+                    </ul>
+                </div>
+                <!-- End search bar section  -->
+                <!-- ---------------- -->
+                <!-- start search-item section -->
+                <div class="item search-item">
+                    <div class="buttons">
+                        <button id="fristbtn" style="display: none;">یک طرفه<i
+                                class="bi bi-chevron-compact-down"></i></button>
+                        <button id="secondbtn" style="display: none;">
+                            اکونومی
+                            <i class="bi bi-chevron-compact-down"></i>
+                        </button>
+                    </div>
+                    <form>
+                        <input type="text" placeholder="مبدا(شهر)">
+                        <button class="between"><i class="bi bi-arrow-left-right"></i></button>
+                        <input type="text" placeholder="مقصد(شهر)">
+                        <input type="text" placeholder="تاریخ رفت">
+                        <input type="text" placeholder="تاریخ برگشت +">
+                        <input type="text" placeholder="">
+                        <button class="searchbtn">جستجو</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        <!-- End search section -->
+        <!-- ------------------------------------- -->
+        <!-- srart other Service section  -->
+        <section class="Other-services">
+            <h2>سایر خدمات علی بابا</h2>
+            <div class="services">
+                <div class="item item1">
+                    <a href="#"><img src="images/safarcard-3dc2c4c4.svg" alt="safar card">
+                        <span>سفر کارت - سازمانی</span></a>
+                </div>
+                <div class="item item2">
+                    <a href="#"><img src="images/instalment-icon-91668a01.svg" alt="safar card">
+                        <span>سفر اقساطی</span></a>
+                </div>
+                <div class="item item3">
+                    <a href="#"><img src="images/visa-icon-d8507c8e.svg" alt="safar card">
+                        <span>ویزا سفر</span></a>
+                </div>
+                <div class="item item4">
+                    <a href="#">
+                        <img src="images/gtour-icon-5e641f1b.svg" alt="safar card">
+                        <span>تور گردشگری</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End other Service section  -->
+        <section class="offer">
+            <div>
+                <a href="http://127.0.0.1:5501/safarcard.html" target="_blank">
+                    <img src="images/AL_Digitalmarketing_on_going_Safar_Card_Cardview_Banner_Desktop_03_10_29_84e3e680f4.webp"
+                        alt="gift">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/AL_Digitalmarketing_ongoing_Installmentpurchase_Cardview_Banner_Desktop_04_0_3_13_20a96cb7f0.webp"
+                        alt="offer">
+                </a>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- End main section -->
+    <!-- -------------------------------------  -->
+    <!-- start footer section -->
+     <div class=".container-fluid border-top border-light-subtle mb-5"></div>
+    <footer>
+        <div class="container  d-flex border-bottom border-light-subtle">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/download.webp" class="img-fluid rounded-start" alt="..." width="90px">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title text-body-secondary">رتبه یک سفر</h6>
+                            <p class="card-text text-black-50">معتبرترین عرضه‌کننده محصولات گردشگری در ایران</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/download (1).webp" class="img-fluid rounded-start" alt="TICKET" width="90px">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title text-body-secondary">همسفر هر سفر</h6>
+                            <p class="card-text text-black-50">ارائه تمامی خدمات سفر (پرواز، قطار، اتوبوس، هتل و تور)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/download (2).webp" class="img-fluid rounded-start" alt="COMPUTER" width="90px">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6 class="card-title text-body-secondary">همسفر همه لحظات سفر</h6>
+                            <p class="card-text text-black-50">پشتیبانی و همراهی ۲۴ ساعته در تمامی مراحل سفر</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2 py-3">
+                    <ul>
+                        <li class="list-group-item frist-item">علی بابا</li>
+                        <li class="list-group-item">درباره ما</li>
+                        <li class="list-group-item">تماس با ما</li>
+                        <li class="list-group-item">چرا علی بابا</li>
+                        <li class="list-group-item">علی بابا پلاس</li>
+                        <li class="list-group-item">بیمه مسافرتی</li>
+                        <li class="list-group-item">مجله علی بابا</li>
+                    </ul>
+
+                </div>
+                <div class="col-2 py-3">
+                    <ul>
+                        <li class="list-group-item frist-item">خدمات مشتریان</li>
+                        <li class="list-group-item">مرکز پشتیبانی آنلاین</li>
+                        <li class="list-group-item">راهنمای خرید</li>
+                        <li class="list-group-item"> راهنمای استرداد</li>
+                        <li class="list-group-item">قوانین و مقررات</li>
+                        <li class="list-group-item">پرسش و پاسخ</li>
+                    </ul>
+                </div>
+                <div class="col-2 py-3">
+                    <ul>
+                        <li class="list-group-item frist-item">اطلاعات تکمیلی</li>
+                        <li class="list-group-item">فروش سازمانی</li>
+                        <li class="list-group-item">پنل آژانسی علی بابا</li>
+                        <li class="list-group-item"> فرصت های شغلی</li>
+                        <li class="list-group-item">سنجش رضایتمندی</li>
+                    </ul>
+                </div>
+
+                <div class="col-6 py-3 tel">
+                    <img src="images/alibaba-logo.svg" alt="alibaba logo" width="120px">
+                    <span class="py-3">تلفن پشتیبانی : <a href="tel:02143900000">021-43900000</a></span>
+                    <div class="d-flex w-100 namad">
+                        <a href="#"><img src="images/logo.png" alt="" class="Symbol-logo"></a>
+                        <a href="#"><img src="images/samandehi-6e2b448a.png" alt="" class="Symbol-logo"></a>
+                        <a href="#"><img src="images/ecunion-35c3c933.jpg" alt="" class="Symbol-logo"></a>
+                        <a href="#"><img src="images/state-airline-f45c55b2.svg" alt="" class="Symbol-logo"></a>
+                        <a href="#"><img src="images/aira-682b7c43.png" alt="" class="Symbol-logo"></a>
+                        <a href="#"><img src="images/passenger-rights-48368f81.svg" alt=""
+                                class="Symbol-logo akhar"></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div>
+            <small>کلیه حقوق این سرویس (وب‌سایت و اپلیکیشن‌های موبایل) محفوظ و متعلق به شرکت سفرهای علی‌بابا می‌باشد.
+                (نسخه 3.213.0)</small>
+                <div>
+                    
+                </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- End footer section -->
+    <!-- -------------------------------------  -->
+    <!-- start of javascript  -->
+    <script src="script/script.js"></script>
+    <!-- End of javascript  -->
+</body>
+
+</html>
